@@ -2,6 +2,7 @@
 
 ## 预览地址
 https://easonwang15.github.io/news-app/dist/
+
 ![](readme-pics/code.png)
 
 ## 技术点
