@@ -4,6 +4,10 @@ ul {list-style-type: none;}
 h1, h2, h3, h4 {font-weight: normal;font-size: 100%;}
 input, button, textarea {border: none;background: none;outline: none;font-family: 'Avenir', Helvetica, Arial, sans-serif;}
 textarea {resize: none;}
+html, body {
+  height: 100%;
+  overflow: hidden;
+}
 #app {
   font: 14px/1.5 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -27,12 +31,9 @@ textarea {resize: none;}
   background-color: #42b983;
 }
 .home {
-  height: 100vh;
-  padding-bottom: 51px;
+  height: calc(100vh - 51px);
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
 }
 .tab {
   position: absolute;
