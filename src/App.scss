@@ -32,8 +32,11 @@ html, body {
 }
 .home {
   height: 100vh;
-  overflow-y: auto;
+  padding-bottom: 51px;
   -webkit-overflow-scrolling: touch;
+  overflow-y: auto;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
 .tab {
   position: absolute;
