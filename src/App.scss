@@ -26,13 +26,22 @@ textarea {resize: none;}
   border: 1px solid #42b983;
   background-color: #42b983;
 }
+.home {
+  height: 100vh;
+  padding-bottom: 51px;
+  overflow-y: scroll;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
 .tab {
-  position: fixed;
+  position: absolute;
   bottom: 0;
   left: 0;
+  z-index: 15;
   display: flex;
   width: 100%;
   border-top: 1px solid #42b983;
+  background-color: #fff;
   a {
     flex: 1;
     height: 50px;
